@@ -46,4 +46,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  base: 'https://github.com/Markus-2902/Markus-2902.github.io',
+  plugins: [],
+  resolve: {
+    alias: [],
+  },
 });
